@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<%- include head.html %>
+<body>
+<%- include header.html %>
+<!-- banner -->
+<div class="banner page-head">
+</div>
+<!-- //banner -->
+<!-- contact-page -->
+<div class="contact">
+	<div class="container">
+		<div class="contact-page">
+			<div class="contact-info">
+				<h2 class="tittle">CONTACT</h2>
+			</div>
+			<div class="contact-form">
+				<form>
+						<input type="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+						<input type="text" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+						<input type="text" value="Telephone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Telephone';}" required="">
+						<textarea onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message</textarea>
+						<input type="submit" value="SEND" >
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- //contact-page -->
+<%- include footer.html %>
+</body>
+</html>
